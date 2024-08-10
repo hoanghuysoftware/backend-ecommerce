@@ -1,0 +1,99 @@
+.cart-body {
+   display: flex;
+}
+
+.cart-title {
+   padding: 10px 0;
+}
+.breadcrumb {
+   margin-bottom: 0;
+}
+.cart-body-left {
+   height: 500px;
+   flex: 2;
+}
+.tbl-img-item {
+}
+.tbl-img-item-data {
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   padding-top: 100%;
+}
+.tbl-name-item {
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-align: left;
+   margin-bottom: 5px;
+}
+.tbl-price-item {
+   margin-bottom: 0;
+   text-align: left;
+   color: #6e6e6e;
+}
+.tbl-quantity-item {
+   width: 100%;
+}
+.tbl-quantity-item-content {
+   width: 70%;
+   margin: 0 auto;
+}
+.quantity-input-container {
+   display: flex;
+   align-items: center;
+}
+
+.tbl-input-quantity {
+   margin: 0 5px;
+   text-align: center;
+   width: 50px; /* Điều chỉnh độ rộng cho phù hợp */
+}
+
+.quantity-button {
+   width: 30px; /* Điều chỉnh độ rộng cho phù hợp */
+   height: 30px; /* Điều chỉnh độ cao cho phù hợp */
+   background-color: #1690ed; /* Màu nền */
+   border: none;
+   cursor: pointer;
+   color: #fff;
+   border-radius: 5px;
+}
+
+.quantity-button:hover {
+   border: 2px solid #1690ed;
+   color: #000;
+   background-color: #fff; /* Màu nền khi di chuột vào */
+}
+
+.quantity-button:active {
+   color: #000;
+   border: 2px solid #1690ed;
+   background-color: #fff; /* Màu nền khi đang nhấn */
+}
+
+.tbl-total-price {
+   font-weight: 600;
+}
+.tbl-trash-item {
+   color: red;
+}
+.btn-cart-group {
+   margin: 10px 0;
+   padding: 5px;
+}
+.cart-body-right {
+   flex: 1;
+   height: 500px;
+}
+.table-brief-cart {
+   width: 80%;
+   margin: 0 auto;
+   border: 1px solid #ccc;
+}
+.btn-pay-link {
+   padding: 10px;
+   margin-top: 20px;
+   width: 80%;
+}

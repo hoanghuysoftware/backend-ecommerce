@@ -1,0 +1,49 @@
+.review-main {
+   background-color: var(--backroundColor-White);
+   padding: 20px 0 10px;
+}
+
+.review-body {
+   border-radius: 10px;
+   width: 80%;
+   padding: 50px 30px 25px;
+   margin: 0 auto;
+   background-color: var(--color-white);
+   margin-bottom: 40px;
+}
+.review-body-img {
+   width: 30%;
+   margin: 0 auto;
+   margin-bottom: 40px;
+}
+.review-body-img-content {
+   padding-top: 100%;
+   background-position: center;
+   background-size: contain;
+}
+.review-body-list {
+   height: 400px;
+   overflow-y: scroll;
+}
+
+.review-body-list::-webkit-scrollbar {
+   display: none; /* Ẩn thanh cuộn */
+}
+
+.review-body-item {
+   width: 70%;
+   margin: 0 auto;
+   margin-top: 30px;
+}
+
+.review-body-item {
+   border-bottom: 1px solid #ddd;
+}
+.product-review-content-body {
+   margin-bottom: 10px;
+}
+
+.btn-return {
+   display: block;
+   margin-bottom: 10px;
+}

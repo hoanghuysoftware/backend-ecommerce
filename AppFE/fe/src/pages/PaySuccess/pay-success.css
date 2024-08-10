@@ -1,0 +1,34 @@
+.pay-success-main {
+   height: 100%;
+   width: 100%;
+   background-color: #f5f5f5;
+   padding: 77px;
+}
+.pay-success-body-wapper {
+   background-color: #fff;
+   width: 400px;
+   margin: 0 auto;
+   padding: 10px;
+   box-shadow: 0 1px 1px 2px #ddd;
+   border-radius: 5px;
+}
+.pay-success-header {
+   padding: 30px 0 10px;
+   margin: 10px 0;
+}
+.pay-success-header img {
+   width: 100px;
+   height: 100px;
+}
+.pay-title {
+   margin-top: 10px;
+   color: #ff6a13;
+}
+.pay-success-body {
+   text-align: left;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+.pay-success-bottom {
+   padding-bottom: 16px;
+}

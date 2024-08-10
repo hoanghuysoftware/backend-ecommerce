@@ -1,0 +1,72 @@
+:root {
+   --color-active: #fd8b01;
+}
+
+.main-control {
+   display: flex;
+}
+.main-control-left {
+   padding: 5px;
+   width: 16%;
+   background-color: #ffffff;
+   position: fixed;
+   left: 0;
+   top: 0;
+   bottom: 0;
+}
+.main-control-logo {
+   margin: 10px 0 15px;
+}
+
+.main-control-user {
+   position: absolute;
+   top: 88%;
+   left: 0;
+   right: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 20px 0;
+   padding: 5px;
+}
+.main-control-user-name p {
+   margin: 0;
+   font-weight: 500;
+   font-size: 15px;
+}
+.main-control-user-logout {
+   padding: 8px;
+   border-radius: 50%;
+   background-color: var(--color-active);
+   border: 1px solid #fff;
+   color: #fff;
+}
+.main-control-user-logout:hover {
+   background-color: #fff;
+   color: var(--color-active);
+   cursor: pointer;
+   border: 1px solid var(--color-active);
+}
+
+.list-group-item.active{
+   background-color: var(--color-active);
+   border-color: var(--color-active)
+}
+.list-group-item:first-child{
+   border-top: none;
+}
+.list-group-item:last-child{
+   border-bottom: none;
+}
+.list-group-item{
+   border-left: none;
+   border-right: none;
+}
+
+.main-control-right {
+   border-radius: 10px;
+   padding: 5px;
+   width: calc(100% - 16%);
+   margin-left: calc(16% + 5px);
+   background-color: #f5f5f5;
+}

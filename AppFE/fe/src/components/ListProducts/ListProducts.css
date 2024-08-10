@@ -1,0 +1,115 @@
+.product-list {
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 -5px;
+}
+
+.product-item {
+   width: 20%;
+   border-radius: 10px;
+   padding: 0 5px;
+   margin-bottom: 10px;
+}
+
+.product-item :hover {
+   cursor: pointer;
+   opacity: 0.9;
+}
+.product-item__content {
+   background-color: #fff;
+   padding: 10px;
+   border: none;
+   /* box-shadow: 1px 1px 1px #ccc; */
+}
+
+.card-img-top {
+   padding-top: 100%;
+   background-position: center;
+   background-size: contain;
+}
+
+.card-body {
+   padding: 5px 0;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   color: #666;
+   font-size: 13px;
+   border-spacing: 2px;
+   text-align: left;
+}
+
+.card-body-table {
+   width: 100%;
+   border-collapse: collapse;
+}
+.card-body-name {
+   padding: 5px 0;
+}
+
+.card-body-name__content:hover {
+   color: #fe6402;
+   opacity: 1;
+}
+
+.card-body-name__content {
+   margin: 0;
+   font-weight: 500;
+   font-size: 14px;
+   color: #000;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   overflow-y: hidden;
+}
+
+.card-body-icon {
+   padding-bottom: 20px;
+   float: left;
+}
+
+.card-body-price {
+   padding: 10px 0 0;
+}
+
+.price-old {
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 10px;
+}
+
+.price-old__content {
+   font-size: 14px;
+   color: #000;
+   font-weight: 400;
+   margin-right: 7px;
+}
+
+.sale-off {
+   width: 32px;
+   height: 20px;
+   line-height: 20px;
+   text-align: center;
+   font-size: 11px;
+   background-color: #d00012;
+   color: #fff;
+   font-weight: 700;
+   border-radius: 5px;
+}
+
+.sale-off__amoung {
+   margin: 0;
+}
+
+.price-new {
+   font-size: 20px;
+   color: #fff;
+   background-color: #fe6402;
+   font-weight: 700;
+   text-align: center;
+   padding: 5px;
+   border-radius: 16px;
+}
+
+.product-link:hover {
+   text-decoration: none;
+}

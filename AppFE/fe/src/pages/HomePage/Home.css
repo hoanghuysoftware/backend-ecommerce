@@ -1,0 +1,102 @@
+.home-content{
+    background-color: var(--backroundColor-White);
+}
+
+.home-slides{
+    display: block;
+    max-width: 100%;
+}
+
+/* Start Css for sale products */
+.product-sale {
+    padding: 15px 10px 10px;
+    border-radius: 15px;
+    background-color: var(--main-backroudColor);
+}
+.product-sale-top {
+    padding: 15px 0;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-sale-title {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-sale-icon {
+    font-size: 40px;
+}
+.product-sale-icon i {
+    animation: color-animation 2s infinite;
+}
+
+.product-sale-contetn {
+    padding-left: 10px;
+
+}
+
+.product-sale-link {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding-right: 7px;
+}
+
+
+@keyframes color-animation {
+    0% {
+      color: #FF0000;
+    }
+    25% {
+      color: #FFFF33;
+    }
+    50% {
+      color: #FFFF00;
+    }
+    75% {
+      color: #FFFF66;
+    }
+    100% {
+      color: #FF0000;
+    }
+  }
+/* End Css for sale products */
+
+
+/* Strat Css for products by brand */
+.product-brand {
+    padding: 20px 0 15px;
+    margin-top: 20px;
+}
+
+.product-brand-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.product-brand-title {
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.product-brand-link:hover {
+    cursor: pointer;
+    color: var(--color-hover);
+    text-decoration: underline;
+}
+
+.product-brand-main {
+    padding-top: 5px;
+}
+
+/* End Css for products by brand */

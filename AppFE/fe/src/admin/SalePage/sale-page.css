@@ -1,0 +1,52 @@
+.sale-page {
+    padding: 5px;
+}
+.sale-title h2{
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sale-body {
+    display: flex;
+}
+.sale-left {
+    flex: 2;
+    margin-right: 5px;
+    padding: 0 5px;
+    position: relative;
+}
+.sale-left::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -35px;
+    width: 2px;
+    background-color: #ccc;
+}
+
+.sale-btn{
+    text-align: left;
+}
+.sale-left button {
+    margin: 10px 0 15px;
+    margin-right: 5px;
+    text-align: left;
+}
+table tbody tr:hover{
+    cursor: pointer;
+}
+.sale-right {
+    flex: 1;
+    margin-left: 5px;
+    padding: 0 5px;
+}
+
+.sale-form{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sale-form button {
+    width: 100px;
+}

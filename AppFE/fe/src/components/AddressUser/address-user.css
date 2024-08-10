@@ -1,0 +1,63 @@
+.address-user-main {
+   background-color: #fff;
+   padding: 10px 20px 0 20px;
+   border-radius: 5px;
+}
+.address-user-content {
+   text-align: left;
+}
+.address-user-top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 0 5px;
+   margin-bottom: 10px;
+   border-bottom: 2px solid #bfbfbf;
+}
+.btn-add-address {
+   width: 20%;
+   height: 10%;
+   background-color: #fff;
+   color: #007bff;
+   border-width: 2px;
+}
+.address-user-title {
+   font-size: 25px;
+   font-weight: 500;
+}
+.address-user-body {
+   margin-top: 10px;
+   padding: 10px 0 20px;
+}
+.address-user-list {
+   width: 80%;
+   margin: 0 auto;
+   height: 250px;
+   overflow-y: auto;
+}
+.address-user-list::-webkit-scrollbar {
+   display: none;
+}
+.address-user-item {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+   margin-bottom: 5px;
+   border-radius: 4px;
+}
+.address-user-item:hover {
+   cursor: pointer;
+   background-color: #eaeaea;
+}
+.address-user-data {
+}
+.address-user-control button:first-child {
+   margin-right: 10px;
+}
+.btn.btn-success {
+}
+.btn.btn-danger {
+}
+.address-user-bottom {
+}

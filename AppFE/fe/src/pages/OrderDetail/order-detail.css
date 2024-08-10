@@ -1,0 +1,123 @@
+.order-detail-container {
+   margin: 20px 0 40px;
+   padding: 20px 40px;
+   background-color: #eaeaea;
+   box-shadow: 0 1px 1px 2px #ddd;
+   border-radius: 5px;
+}
+.order-detail-top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.btn.btn-secondary {
+}
+.order-detail-title {
+   display: flex;
+   align-items: center;
+}
+.order-detail-id {
+   font-size: 18px;
+   font-weight: 700;
+   margin-right: 40px;
+   text-align: left;
+   color: var(--color-hover);
+}
+.order-detail-status {
+   position: relative;
+   text-transform: uppercase;
+   font-weight: 700;
+   color: #007bff;
+}
+.order-detail-status::before {
+   content: '';
+   position: absolute;
+   width: 2px;
+   height: 100%;
+   background-color: #ccc;
+   left: -15%;
+}
+.order-detail-body {
+   padding: 10px 0;
+   margin-top: 10px;
+}
+.detail-body-info-customer {
+   text-align: left;
+   padding-bottom: 10px;
+   border-bottom: 1px solid #000;
+}
+/* .detail-body-title {
+}
+.detail-body-name-cus {
+} */
+.detail-body-phone {
+   margin-bottom: 0;
+}
+.detail-body-address {
+   margin-bottom: 10px;
+}
+.detail-body-info-order {
+   padding-top: 20px;
+   text-align: left;
+}
+.detail-body-list {
+}
+.detail-body-item {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}
+.detail-body-item-img {
+   width: 90px;
+   height: 90px;
+   background-color: #007bff;
+}
+.detail-body-item-img-data {
+   padding-top: 100%;
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.detail-body-item-info {
+   flex: 1;
+   margin-left: 20px;
+   display: flex;
+   flex-direction: column;
+}
+.detail-body-item-info-name {
+   font-size: 18px;
+   padding: 0 10px;
+   color: #000;
+}
+.detail-body-item-info-quantity {
+   color: #525151;
+   padding: 0 10px;
+}
+.detail-body-item-price {
+   color: var(--color-hover);
+   font-weight: 600;
+}
+.btn-back-order-detail {
+   background-color: #fff;
+   color: #000;
+   width: 10%;
+}
+.btn-back-order-detail i {
+   margin-right: 5px;
+   font-weight: 700;
+}
+.order-detail-bottom {
+   margin-top: 40px;
+   text-align: right;
+   width: 50%;
+   margin: 0 0 0 50%;
+}
+.detail-table-title {
+   font-size: 15px;
+   color: #939292;
+}
+.detail-table:nth-child(4) .detail-table-data {
+   color: red;
+   font-size: 20px;
+   font-weight: 800;
+}

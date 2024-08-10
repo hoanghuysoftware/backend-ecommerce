@@ -1,0 +1,41 @@
+.brand-page {
+    padding: 5px;
+}
+.brand-body{
+    margin-top: 20px;
+    display: flex;
+}
+.brand-left {
+    position: relative;
+    width: 50%;
+    margin-right: 5px;
+}
+
+.brand-left::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -15%;
+    bottom: 0;
+    width: 2px;
+    background-color: #ccc;
+}
+
+.brand-left table:hover{
+    cursor: pointer;
+}
+
+.brand-right {
+    width: 50%;
+    margin-left: 5px;
+}
+
+.form-input-brand{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-group p{
+    margin: 0;
+    text-align: left;
+}

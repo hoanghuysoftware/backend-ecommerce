@@ -1,0 +1,90 @@
+.product-page {
+   padding: 15px 0 20px;
+}
+
+.product-title h2 {
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+.product-option {
+   margin: 0 0 10px;
+   text-align: left;
+   margin-left: 2%;
+}
+
+.product-option button {
+   width: 100px;
+   margin-right: 10px;
+}
+.table th,
+.table td {
+   width: 12%;
+}
+.table tbody tr {
+   height: 50px; /* hoặc bạn có thể chỉ định cụ thể độ cao mong muốn, ví dụ: height: 50px; */
+}
+.table td {
+   padding: 0.39rem;
+}
+
+table .td-name,
+table .td-desc {
+   width: 100%;
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}
+
+thead tr th:first-child {
+   width: 2%;
+}
+
+.table tbody tr th {
+   width: 2%;
+}
+thead tr th:last-child {
+   width: 14%;
+}
+.table tbody tr td:last-child {
+   width: 14%;
+}
+
+table .td-img {
+   padding-top: 70%;
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   margin-bottom: 5px;
+}
+.product-table table{
+    position: relative;
+}
+.product-table{
+    height: 560px;
+    overflow-y: auto;
+}
+.product-table::-webkit-scrollbar {
+    display: none; /* Ẩn thanh cuộn */
+ }
+
+.table-title-fix{
+    position: fixed;
+    right: 38px;
+    left: calc(16% + 5px);
+}
+
+.table-title-fix::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -34px;
+    width: 34px;
+    height: 50px;
+    background-color: #b8daff;
+    border: 1px solid #7abaff;
+    border-left: none;
+    border-bottom: none;
+}
+ 

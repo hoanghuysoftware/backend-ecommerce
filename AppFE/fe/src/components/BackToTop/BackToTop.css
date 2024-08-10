@@ -1,0 +1,19 @@
+#back-to-top-btn {
+    display: none; /* Ẩn nút ban đầu */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    background-color: var(--main-backroudColor);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 50%;
+  }
+  
+  #back-to-top-btn:hover {
+    background-color: rgb(35, 206, 35);
+  }

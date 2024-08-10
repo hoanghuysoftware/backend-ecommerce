@@ -1,0 +1,100 @@
+.import-page {
+}
+.import-title h2{
+    font-weight: 700;
+    text-align: center;
+}
+.import-body {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row-reverse
+}
+.import-left {
+    width: 30%;
+    margin: 0 5px;
+}
+.import-right {
+    width: 70%;
+    margin-right: 5px;
+}
+
+.import-table{
+    overflow-x: scroll;
+}
+.import-table::-webkit-scrollbar{
+    outline: none;
+}
+
+form div p {
+    margin: 0px;
+    text-align: left;
+    margin: 15px 0 5px;
+}
+form div input {
+    width: 100%;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 1px 2px 1px #ddd;
+    border-radius: 5px;
+}
+form div input:focus{
+    box-shadow: 0 1px 2px 1px #bbb;
+    outline: none;
+}
+
+form button {
+    margin: 15px 0 20px;
+}
+.import-data-table:first-child{
+    margin-top: unset;
+}
+.import-data-table{
+    margin: 15px 0 40px;
+}
+
+.import-data-table .import-table table{
+    height: 500px;
+    overflow-y: auto;
+}
+.import-data-table .import-table table::-webkit-scrollbar{
+    outline: none;
+}
+.import-data-table .import-table table:first-child{
+    height: 200px;
+}
+
+.import-data-table tbody th,
+.import-data-table tbody td{
+    width: auto;
+}
+
+.import-check-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.import-check-item {
+    width: 50%;
+    position: relative;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 10px;
+}
+
+.import-check-item input{
+    left: 0;
+    margin: 0;
+    width: 10%;
+    box-shadow: none;
+}
+
+.import-check-item label{
+    font-size: 14px;
+    flex: 1;
+    margin-left: 20px;
+    text-align: justify;
+}
